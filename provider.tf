@@ -13,7 +13,7 @@ provider "aws" {
 
 }
 terraform {
-    backend "s3" {
+  backend "s3" {
     bucket = "alaa-s3"
     key    = "key"
     region = "eu-west-1"
