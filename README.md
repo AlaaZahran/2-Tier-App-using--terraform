@@ -81,13 +81,14 @@ Using s3 as a backend instead of using  a local backend
 ## Terraform Module Source
 
 1- Network module
-   [Module](https://github.com/AlaaZahran/2-Tier-App-network-module.git)
+   [Network_Module](https://github.com/AlaaZahran/2-Tier-App-network-module.git)
+   
 2- Rds module
-   [Module](https://github.com/AlaaZahran/2-Tier-App-rds-instance-module.git)
+   [Rds_Module](https://github.com/AlaaZahran/2-Tier-App-rds-instance-module.git)
+   
 3- Web module
-   [Module](https://github.com/AlaaZahran/2-Tier-App-web-instance-module.git)
+   [Web_Module](https://github.com/AlaaZahran/2-Tier-App-web-instance-module.git)
 
-[Module](https://github.com/AlaaZahran/2-Tier-App-module.git)
 
 
 ## Deployment
