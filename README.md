@@ -16,13 +16,18 @@ The project divide to tow parts :
     * Provider.tf
     * Terraform.tfvars
     * Varaible.tf
-*  Module folder which includes:
-
-    * rds_instance.tf
-    * web_instance.tf
-    * subnet.tf
-    * Varaible.tf
-
+*  Modules folder which includes 3 folder :
+    * web-instance
+       * main.tf
+       * variable.tf
+    * rd-instance
+       * main.tf
+       * variable.tf
+       
+    * network
+       * main.tf
+       * variable.tf
+       * output
     
 ## Network Steps
 1- create a vpc using GUI
@@ -74,6 +79,13 @@ The project divide to tow parts :
 ## Backend
 Using s3 as a backend instead of using  a local backend 
 ## Terraform Module Source
+
+1- Network module
+   [Module](https://github.com/AlaaZahran/2-Tier-App-network-module.git)
+2- Rds module
+   [Module](https://github.com/AlaaZahran/2-Tier-App-rds-instance-module.git)
+3- Web module
+   [Module](https://github.com/AlaaZahran/2-Tier-App-web-instance-module.git)
 
 [Module](https://github.com/AlaaZahran/2-Tier-App-module.git)
 
